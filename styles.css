@@ -1,0 +1,46 @@
+* body {
+    background-color: rgb(211, 173, 173);
+}
+
+
+/* Styling using a class selector */
+.main-heading {
+    font-family: 'Verdana', sans-serif;
+    color: #1d39d3;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(211, 173, 173);
+}
+
+
+/* Styling using an ID selector */
+#intro {
+    font-size: 20px;
+    font-style: italic;
+    color: #34495e;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Styling an image */
+.ceo-photo {
+    border: 5px solid rgb(245, 6, 173);
+    margin: 5px;
+    display: block;
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+.google-link {
+    color: blue;
+    text-decoration: none; /* removes the underline */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.google-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
